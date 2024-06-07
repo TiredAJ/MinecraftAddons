@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "AJDev:cat_ears_rp",
+			"materials": {
+				"default": "armor"
+			},
+			"textures": {
+				"default": "textures/ImprovedCatEars"
+			},
+			"geometry": {
+				"default": "geometry.catears"
+			},
+			"scripts": {
+				"parent_setup": "variable.helmet_layer_visible = 1.0"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			],
+			"item": "AJDev:cat_ears_rp"
+		}
+	}
+}

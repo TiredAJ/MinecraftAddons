@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"TiredAJ"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.20"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "ServerMain",
+		"description": "Main addon for group server.",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "b63dc846-811a-43c9-b526-680dc26bf205",
+		"version": [
+			1,
+			4,
+			1
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "79530447-0af5-4330-931a-a386fc2db093",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
